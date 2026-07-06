@@ -1,369 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NitSol Consultancy Services | Global Software Development & Consulting</title>
+    <title>NitSol Consultancy Services</title>
 
-    <meta name="description"
-        content="NitSol Consultancy Services is a global software development and technology consulting company helping businesses build scalable digital solutions.">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
 
-    <link rel="stylesheet" href="style.css">
+        body{
+            background:#ffffff;
+            color:#333;
+            line-height:1.7;
+        }
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        .container{
+            max-width:1000px;
+            margin:auto;
+            padding:40px 25px;
+        }
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+        .logo{
+            text-align:center;
+            margin-bottom:30px;
+        }
+
+        .logo img{
+            width:280px;
+            max-width:100%;
+        }
+
+        .card{
+            border:1px solid #e5e5e5;
+            border-radius:12px;
+            padding:40px;
+            box-shadow:0 10px 30px rgba(0,0,0,.06);
+        }
+
+        h1{
+            color:#222;
+            font-size:36px;
+            text-align:center;
+            margin-bottom:20px;
+        }
+
+        h2{
+            color:#222;
+            margin-top:35px;
+            margin-bottom:15px;
+            border-left:6px solid #59B84A;
+            padding-left:12px;
+        }
+
+        .highlight{
+            color:#59B84A;
+            font-weight:bold;
+        }
+
+        p{
+            font-size:17px;
+            margin-bottom:15px;
+        }
+
+        ul{
+            margin-left:25px;
+        }
+
+        li{
+            margin:10px 0;
+            font-size:16px;
+        }
+
+        .email{
+            margin-top:30px;
+            padding:20px;
+            background:#F6FFF4;
+            border-left:6px solid #59B84A;
+            border-radius:8px;
+        }
+
+        .email a{
+            color:#59B84A;
+            font-weight:bold;
+            text-decoration:none;
+        }
+
+        footer{
+            text-align:center;
+            margin-top:40px;
+            color:#666;
+            font-size:14px;
+        }
+
+        @media(max-width:768px){
+
+            h1{
+                font-size:28px;
+            }
+
+            .card{
+                padding:25px;
+            }
+
+        }
+
+    </style>
+
 </head>
 
 <body>
 
-<nav class="navbar">
+<div class="container">
 
-    <div class="container">
+    <div class="logo">
+        <img src="logo.png" alt="NitSol Logo">
+    </div>
 
-        <div class="logo">
-            NitSol Consultancy Services
-        </div>
+    <div class="card">
+
+        <h1>Looking for an Experienced Backend Freelancer</h1>
+
+        <p>
+            We are looking for an experienced
+            <span class="highlight">Backend Freelancer</span>
+            to help us build scalable backend services for ongoing development projects.
+            This is a remote engagement where we value ownership, engineering quality,
+            and timely delivery.
+        </p>
+
+        <h2>Current Tech Stack</h2>
 
         <ul>
-
-            <li><a href="#about">About</a></li>
-
-            <li><a href="#services">Services</a></li>
-
-            <li><a href="#industries">Industries</a></li>
-
-            <li><a href="#contact">Contact</a></li>
-
+            <li>Node.js</li>
+            <li>NestJS / Express.js</li>
+            <li>PostgreSQL</li>
+            <li>Redis</li>
+            <li>Hosted on Railway</li>
         </ul>
 
-    </div>
+        <h2>Required Skills</h2>
 
-</nav>
+        <ul>
+            <li>Strong experience with Node.js and NestJS (or Express.js)</li>
+            <li>Database Architecture & PostgreSQL</li>
+            <li>REST API Development</li>
+            <li>Redis</li>
+            <li>Observability / APM (Datadog, Sentry, OpenTelemetry or similar)</li>
+            <li>Event-driven architecture (RabbitMQ, Kafka, AWS SQS or similar)</li>
+            <li>Experience building scalable backend systems</li>
+        </ul>
 
-<section class="hero">
+        <h2>Engagement Details</h2>
 
-    <div class="container hero-content">
+        <ul>
+            <li>Remote Opportunity</li>
+            <li>Expected availability: 6–8 hours/day</li>
+            <li>Work is deliverable-based (not time tracking)</li>
+            <li>Compensation will be discussed based on experience.</li>
+        </ul>
 
-        <h1>
-            Building Software That Drives Business Growth
-        </h1>
+        <div class="email">
 
-        <p>
+            <h2 style="margin-top:0;">Interested?</h2>
 
-            NitSol Consultancy Services is a global software development and
-            technology consulting firm helping startups, SMEs, and enterprises
-            transform ideas into scalable digital products.
+            <p>
+                Please send the following details:
+            </p>
 
-        </p>
+            <ul>
+                <li>Resume</li>
+                <li>LinkedIn Profile</li>
+                <li>Years of Experience</li>
+                <li>Current Location</li>
+                <li>Availability / Earliest Joining</li>
+                <li>Expected Compensation</li>
+            </ul>
 
-        <div class="buttons">
+            <br>
 
-            <a href="#contact" class="btn btn-primary">
-                Contact Us
-            </a>
-
-            <a href="#services" class="btn btn-secondary">
-                Our Services
-            </a>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section class="stats">
-
-    <div class="container stats-grid">
-
-        <div class="stat">
-
-            <h2>5+</h2>
-
-            <p>Projects Delivered</p>
-
-        </div>
-
-        <div class="stat">
-
-            <h2>Global</h2>
-
-            <p>Client Engagement</p>
-
-        </div>
-
-        <div class="stat">
-
-            <h2>100%</h2>
-
-            <p>Development Focused</p>
-
-        </div>
-
-        <div class="stat">
-
-            <h2>End-to-End</h2>
-
-            <p>Project Delivery</p>
+            <p>
+                Email us at:
+                <br><br>
+                <a href="mailto:abg20141@protonmail.com">
+                    abg20141@protonmail.com
+                </a>
+            </p>
 
         </div>
 
     </div>
 
-</section>
+    <footer>
 
-<section id="about" class="section">
+        © 2026 NitSol Consultancy Services
 
-    <div class="container">
+    </footer>
 
-        <h2>
-            Your Trusted Technology Partner
-        </h2>
-
-        <p>
-
-            NitSol Consultancy Services specializes in delivering end-to-end
-            software development and consulting services. We work closely with
-            startups, SMEs, and enterprises to understand their business goals
-            and deliver reliable digital solutions that scale.
-
-        </p>
-
-        <p>
-
-            Our focus is on quality engineering, transparent communication,
-            and long-term partnerships that create lasting business value.
-
-        </p>
-
-    </div>
-
-</section>
-
-<section id="services" class="section light">
-
-    <div class="container">
-
-        <h2>Our Services</h2>
-
-        <div class="cards">
-
-            <div class="card">
-
-                <h3>Custom Software Development</h3>
-
-                <p>
-                    Tailored software solutions designed to solve complex
-                    business challenges.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h3>Technology Consulting</h3>
-
-                <p>
-                    Strategic consulting, solution architecture, and technical
-                    guidance for modern businesses.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h3>Application Modernization</h3>
-
-                <p>
-                    Upgrade existing systems to improve performance,
-                    scalability, and user experience.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h3>Cloud Solutions</h3>
-
-                <p>
-                    Secure, scalable cloud environments and infrastructure
-                    planning for growing organizations.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h3>AI & Intelligent Automation</h3>
-
-                <p>
-                    Improve efficiency with AI-powered workflows and intelligent
-                    automation solutions.
-                </p>
-
-            </div>
-
-            <div class="card">
-
-                <h3>Maintenance & Support</h3>
-
-                <p>
-                    Long-term support, enhancements, monitoring, and continuous
-                    improvement.
-                </p>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section class="section">
-
-    <div class="container">
-
-        <h2>
-            Why Choose NitSol?
-        </h2>
-
-        <div class="features">
-
-            <div>✔ Global Delivery Model</div>
-
-            <div>✔ Experienced Engineering Team</div>
-
-            <div>✔ Client-First Approach</div>
-
-            <div>✔ Transparent Communication</div>
-
-            <div>✔ Reliable Project Delivery</div>
-
-            <div>✔ Long-Term Technology Partnership</div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section id="industries" class="section light">
-
-    <div class="container">
-
-        <h2>
-            Industries We Support
-        </h2>
-
-        <div class="industry-grid">
-
-            <div>Healthcare</div>
-
-            <div>Finance</div>
-
-            <div>E-Commerce</div>
-
-            <div>Enterprise Software</div>
-
-            <div>Education</div>
-
-            <div>Logistics</div>
-
-            <div>Startups</div>
-
-            <div>SaaS Platforms</div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section class="section">
-
-    <div class="container">
-
-        <h2>
-            Our Engagement Process
-        </h2>
-
-        <div class="timeline">
-
-            <div>
-                <h3>01</h3>
-                <p>Discovery</p>
-            </div>
-
-            <div>
-                <h3>02</h3>
-                <p>Planning</p>
-            </div>
-
-            <div>
-                <h3>03</h3>
-                <p>Development</p>
-            </div>
-
-            <div>
-                <h3>04</h3>
-                <p>Delivery & Support</p>
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section id="contact" class="contact">
-
-    <div class="container">
-
-        <h2>
-            Let's Build Something Great Together
-        </h2>
-
-        <p>
-
-            Whether you're launching a new product, modernizing an existing
-            platform, or looking for a reliable technology partner, we'd love
-            to hear from you.
-
-        </p>
-
-        <a href="mailto:contact@nitsol.sbs" class="btn btn-primary">
-
-            contact@nitsol.sbs
-
-        </a>
-
-    </div>
-
-</section>
-
-<footer>
-
-    <div class="container">
-
-        <h3>NitSol Consultancy Services</h3>
-
-        <p>
-            Global Software Development & Technology Consulting
-        </p>
-
-        <p>
-
-            © 2026 NitSol Consultancy Services. All Rights Reserved.
-
-        </p>
-
-    </div>
-
-</footer>
+</div>
 
 </body>
 
