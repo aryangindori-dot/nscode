@@ -1,15 +1,1 @@
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,Helvetica,sans-serif;background:#f4f6f8;color:#333;line-height:1.7}
-.container{width:90%;max-width:1000px;margin:auto}
-header{background:#0f172a;color:#fff;text-align:center;padding:80px 20px}
-header h1{font-size:42px;margin-bottom:15px}
-.tagline{font-size:20px;color:#d1d5db}
-section{padding:70px 0}
-.hero{background:#fff}
-.hero h2,.services h2,.contact h2{margin-bottom:20px;color:#0f172a}
-.hero p{margin-bottom:20px}
-.services{background:#eef2ff}
-.services ul{margin-left:20px}
-.services li{margin-bottom:10px}
-.contact{background:#fff}
-footer{background:#0f172a;color:#fff;text-align:center;padding:30px}
+body{font-family:Arial;background:#f6f8fb;padding:40px}h1{color:#123}
