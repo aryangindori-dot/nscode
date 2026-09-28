@@ -28,7 +28,28 @@ nav a:hover::after{width:100%}
 .btn{display:inline-block;margin-top:24px;padding:14px 28px;background:#59B947;color:#fff;border:2px solid #59B947;border-radius:30px;text-decoration:none;font-weight:600;transition:transform .25s ease,box-shadow .25s ease}
 .btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(89,185,71,.22)}
 
-
+.consultancy-hero{
+padding:75px 0;
+background:#fff;
+border-top:1px solid #eee;
+border-bottom:1px solid #eee;
+}
+.consultancy-hero h2{
+max-width:850px;
+margin:0 0 18px;
+font-size:42px;
+line-height:1.2;
+}
+.consultancy-hero p{
+max-width:760px;
+margin:0;
+color:#555;
+font-size:18px;
+line-height:1.8;
+}
+.consultancy-hero .btn{
+margin-top:24px;
+}
 /* General Sections */
 .section{padding:80px 0}
 .alt{background:#fff}
