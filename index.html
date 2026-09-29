@@ -2,81 +2,185 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>NitSol Consultancy Services</title>
+<meta name="description" content="NitSol Consultancy Services provides business consulting, software development, application modernization, support and maintenance, vetted software developers, and employee recruitment services.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<!-- Navigation -->
 <header class="navbar">
-<div class="container">
-<div class="brand">
+<div class="container navbar-container">
+<a href="#" class="brand">
 <img src="assets/logo.png" alt="NitSol Logo">
-<div class="brand-text"><strong style="font-size:28px;">Consultancy Services</strong></div>
-</div>
-<nav>
+<div class="brand-text"><strong>Consultancy Services</strong></div>
+</a>
+<nav aria-label="Main Navigation">
 <a href="#about">About</a>
+<a href="#consultancy" class="nav-primary">Consultancy</a>
 <a href="#services">Services</a>
 <a href="#industries">Industries</a>
+<a href="#recruitment">Recruitment</a>
 <a href="#contact">Contact</a>
 </nav>
 </div>
 </header>
-
+<main>
+<!-- Hero -->
 <section class="hero">
-<div class="container">
+<div class="container hero-container">
+<div class="hero-content">
+<span class="eyebrow">NITSOL CONSULTANCY SERVICES</span>
 <h1>Helping Businesses Solve Complex Challenges</h1>
-<p>
-NitSol Consultancy Services partners with businesses to understand operational challenges,
-provide strategic consulting, and deliver reliable software solutions that support growth,
-improve efficiency, and create long-term business value. We believe in building trusted
-relationships with our clients through quality delivery, transparency, and practical solutions
-tailored to each organization's objectives.
-</p>
-<a class="btn" href="#about">Learn More</a>
+<p>NitSol Consultancy Services partners with businesses to understand their operational and technology requirements, provide the right expertise, and deliver reliable solutions that support growth, efficiency, and long-term business value.</p>
+<a class="btn" href="#services">Explore Our Services</a>
+</div>
+</div>
+</div>
+<!--consultancy-->
+</section>
+<section id="consultancy" class="consultancy-hero">
+<div class="container">
+<span class="eyebrow">CONSULTANCY SERVICE</span>
+<h2>Vetted Software Developers for Your Development Needs</h2>
+<p>We provide vetted software developers to businesses based on their development requirements, technical needs, and project objectives.</p>
+<a href="#contact" class="btn">Discuss Your Requirement</a>
 </div>
 </section>
-
+<!-- About -->
 <section id="about" class="section">
 <div class="container">
-<h2>About Us</h2>
-<p>
-We work closely with organizations across industries to understand their unique business needs
-and transform ideas into dependable digital solutions. Our focus is on solving business problems,
-improving processes, and delivering solutions that create measurable value for our clients.
-</p>
+<span class="eyebrow">ABOUT US</span>
+<h2>Practical Solutions Built Around Business Needs</h2>
+<p class="section-description">We work closely with organizations across industries to understand their unique business needs and transform ideas into dependable solutions.</p>
+<p class="section-description">Our focus is on solving business problems, improving processes, providing technology expertise, and connecting organizations with suitable talent when required.</p>
 </div>
 </section>
-
+<!-- Services -->
 <section id="services" class="section alt">
 <div class="container">
-<h2>Our Services</h2>
-<div class="grid">
-<div class="card"><h3>Business Consulting</h3><p>Strategic guidance aligned with business objectives.</p></div>
-<div class="card"><h3>Software Development</h3><p>Custom digital solutions designed for long-term success.</p></div>
-<div class="card"><h3>Application Modernization</h3><p>Enhancing existing platforms for improved performance.</p></div>
-<div class="card"><h3>Support & Maintenance</h3><p>Continuous support and solution improvements.</p></div>
+<span class="eyebrow">OUR SERVICES</span>
+<h2>Solutions Designed Around Your Requirements</h2>
+<p class="section-description">We provide consulting, development, modernization, support, and technical talent solutions based on the specific requirements of each organization.</p>
+<div class="services-grid">
+<article class="service-card">
+<span class="service-number">01</span>
+<h3>Business Consulting</h3>
+<p>Strategic guidance aligned with business objectives, helping organizations understand challenges and identify practical opportunities for improvement.</p>
+</article>
+<article class="service-card">
+<span class="service-number">02</span>
+<h3>Software Development</h3>
+<p>Custom digital solutions designed around business requirements, operational needs, and long-term objectives.</p>
+</article>
+<article class="service-card">
+<span class="service-number">03</span>
+<h3>Application Modernization</h3>
+<p>Enhancing existing applications and platforms to improve performance, maintainability, and overall effectiveness.</p>
+</article>
+<article class="service-card">
+<span class="service-number">04</span>
+<h3>Support &amp; Maintenance</h3>
+<p>Continuous support, maintenance, and improvements to help organizations keep their solutions reliable and effective.</p>
+</article>
+<article class="service-card">
+<span class="service-number">05</span>
+<h3>Vetted Software Developers</h3>
+<p>We provide vetted software developers to businesses based on their development requirements, technical needs, and project objectives.</p>
+</article>
+</div>
+<div class="consultancy-block">
+<h3>How Our Developer Consultancy Works</h3>
+<div class="process-grid">
+<div class="process-item">
+<span>01</span>
+<div><h4>Share Requirements</h4><p>Tell us about your development and technical requirements.</p></div>
+</div>
+<div class="process-item">
+<span>02</span>
+<div><h4>Understand Your Needs</h4><p>We understand your project, skills, and technical needs.</p></div>
+</div>
+<div class="process-item">
+<span>03</span>
+<div><h4>Match Developers</h4><p>Suitable developers are identified based on your needs.</p></div>
+</div>
+<div class="process-item">
+<span>04</span>
+<div><h4>Start Development</h4><p>Developers support your project and development team.</p></div>
+</div>
+</div>
 </div>
 </div>
 </section>
-
+<!-- Industries -->
 <section id="industries" class="section">
 <div class="container">
+<span class="eyebrow">INDUSTRIES</span>
 <h2>Industries We Support</h2>
-<p>Healthcare • Finance • Logistics • Education • Retail • Enterprise</p>
+<p class="section-description">Our consulting, technology, and talent services can support organizations across different industries.</p>
+<div class="industry-list">
+<span>Healthcare</span>
+<span>Finance</span>
+<span>Logistics</span>
+<span>Education</span>
+<span>Retail</span>
+<span>Enterprise</span>
+</div>
 </div>
 </section>
-  
-<p style="font-weight:600;font-size:18px;">
-Interested in working with us? Drop us an email at:
+<!-- Employee Recruitment -->
+<section id="recruitment" class="section recruitment">
+<div class="container">
+<span class="eyebrow">ADDITIONAL SERVICE</span>
+<h2>Employee Recruitment</h2>
+<p class="section-description">We also help businesses identify and recruit suitable employees based on their organizational, technical, and workforce requirements.</p>
+<div class="recruitment-grid">
+<article class="recruitment-card">
+<span>01</span>
+<h3>Understand Requirements</h3>
+<p>Understand the role, responsibilities, skills, experience, and hiring requirements.</p>
+</article>
+<article class="recruitment-card">
+<span>02</span>
+<h3>Source &amp; Screen</h3>
+<p>Identify and screen suitable candidates according to the defined requirements.</p>
+</article>
+<article class="recruitment-card">
+<span>03</span>
+<h3>Match Candidates</h3>
+<p>Connect organizations with candidates whose skills and experience align with their requirements.</p>
+</article>
+</div>
+</div>
+</section>
+<!-- Contact -->
+<section id="contact" class="contact">
+<div class="container contact-container">
+<div class="contact-content">
+<span class="eyebrow">GET IN TOUCH</span>
+<h2>Interested in Working With Us?</h2>
+<p>Tell us about your business, development, or hiring requirements and let's discuss how NitSol can support you.</p>
+<div class="contact-email">
+<span>Email us at</span>
 <strong>hello@nitsol.sbs</strong>
-</p>
-  
-<footer id="contact">
+</div>
+</div>
+<div class="contact-action">
+<p>Have a requirement?</p>
+<a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=hello%40nitsol.sbs&amp;su=Business%20Requirement%20-%20NitSol%20Consultancy" class="contact-btn" target="_blank" rel="noopener noreferrer">
+<span>Send Us an Email</span>
+<span class="contact-arrow">→</span>
+</a>
+<small>We'll get back to you regarding your requirement.</small>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer id="footer">
 <div class="container">
 <p>© 2026 NitSol Consultancy Services</p>
 </div>
 </footer>
-
 </body>
 </html>
